@@ -19,3 +19,6 @@
 
 # diff_ints = int_1 - int_2
 # print(hex(diff_ints))
+
+# Walrus Operator
+print(my_var := "Hello World")
