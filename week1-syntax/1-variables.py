@@ -32,7 +32,12 @@
 
 # print(len("Hello"))
 
-# a: list[int] = [1, 2, 3]
+a: list[int] = []
 
 # ternary conditional operator
 # print("The list is not empty" if a else "The list is empty")
+print(
+    "The list is not empty"
+    if len(a) != 0
+    else "The list is empty" if len(a) <= 3 else "The list has 3 or more items"
+)
